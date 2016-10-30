@@ -39,14 +39,14 @@
       else {
         vals = group ? equalizer.find('['+this.attr_name()+'-watch="'+group+'"]:visible') : equalizer.find('['+this.attr_name()+'-watch]:visible');
       }
-      
+
       if (vals.length === 0) {
         return;
       }
 
       settings.before_height_change();
       equalizer.trigger('before-height-change.fndth.equalizer');
-      vals.height('inherit');
+      /* vals.height('inherit'); */
 
       if (settings.equalize_on_stack === false) {
         firstTopOffset = vals.first().offset().top;
@@ -90,7 +90,7 @@
           }
         }
 
-        self.image_loaded(self.S('img', this), function () {
+        self.image_loaded(self.S('a', this), function () {
           if (ignore_media_query || Foundation.utils[media_query]()) {
             self.equalize($eq_target)
           } else {

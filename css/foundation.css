@@ -69,11 +69,11 @@ body {
 a:hover {
   cursor: pointer; }
 
-img {
+a {
   max-width: 100%;
   height: auto; }
 
-img {
+a {
   -ms-interpolation-mode: bicubic; }
 
 #map_canvas img,
@@ -109,7 +109,7 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-img {
+a {
   display: inline-block;
   vertical-align: middle; }
 

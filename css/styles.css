@@ -47,7 +47,6 @@ body {
     border-radius: .25rem;
     color: rgb(122, 137, 149);
     font-family: 'Ubuntu', serif;
-    font-weight: 500;
     letter-spacing: normal;
     margin-left: 0.5rem;
     padding: 0.5rem 1.5rem;
@@ -112,7 +111,6 @@ body {
 .hero .info .attribution b {
     color: rgb(73, 85, 96);
     display: block;
-    font-weight: 500;
 }
 .hero .info .avatar1 {
     border-radius: 50%;
@@ -131,8 +129,6 @@ body {
     color: rgb(73, 85, 96);
     font-family: 'Arvo', serif;
     font-size: 1.5rem;
-    font-style: italic;
-    font-weight: normal;
 }
 .image-grid .row {
     max-width: 100%;
@@ -164,7 +160,6 @@ body {
 }
 .image-grid .image .info .attribution b {
     display: block;
-    font-weight: 500;
 }
 .image-grid .image .info .avatar1,
 .avatar2,
@@ -190,9 +185,6 @@ body {
     font-family: 'Ubuntu', serif;
     line-height: 75px;
 }
-.reveal-modal .info .attribution b {
-    font-weight: 700;
-}
 
 /*** footer ***/
 
@@ -214,4 +206,54 @@ footer p {
     font-size: 0.95rem;
     font-weight: 300;
     padding-top: 0.5rem;
+}
+
+/*** sprite maps ***/
+
+.photo1-small, .photo2-small{
+	background: url(../img/sprites-2.png) no-repeat;
+}
+
+.photo1-small{
+	background-position: 0 0;
+	width: 400px;
+	height: 267px;
+}
+
+.photo2-small{
+	background-position: -343px -274px ;
+	width: 400px;
+	height: 267px;
+}
+
+.photo3-small, .photo4-small {
+  background: url(../img/sprites-3.png) no-repeat;
+}
+
+.photo3-small{
+background-position: 0 0;
+width: 400px;
+height: 267px;
+}
+
+.photo4-small{
+background-position: -305px -306px;
+width: 400px;
+height: 270px;
+}
+
+.photo5-small, .photo6-small{
+	background: url(../img/sprites-4.png) no-repeat;
+}
+
+.photo5-small{
+	background-position: 0 0;
+	width: 400px;
+	height: 267px;
+}
+
+.photo6-small{
+	background-position: -299px -279px ;
+	width: 400px;
+	height: 267px;
 }
